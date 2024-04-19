@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{title}</title>
+</head>
+<body>
+    <h1>{nome}</h1>
+    <p>
+        <ul>
+            <li>{endereco}</li>
+            <li>{cidade}</li>
+            <li>{tel}</li>
+            <li>{email}</li>
+        </ul>
+    </p>
+    <h3>Formação: {formacao_acad}</h3>
+    <p>
+        <ul>
+            <li>Faculdade: {faculdade}</li>
+            <li>Ano: {ano}</li>
+        </ul>
+    </p>
+    <h3>Experiência Profissional: {exp_prof}</h3>
+    <p>
+        <ul>
+            <li>Empresa: {empresa}</li>
+            <li>Desde: {desde}</li>
+        </ul>
+    </p>
+
+</body>
+</html>
